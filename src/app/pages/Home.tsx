@@ -1,4 +1,5 @@
 import { Button } from '../components/ui/button';
+import { SEO } from '../components/SEO';
 
 export function Home() {
   const whatsappNumber = "919310682542";
@@ -6,6 +7,7 @@ export function Home() {
 
   return (
     <div className="min-h-screen bg-white">
+      <SEO />
       {/* Main Header */}
       <div className="bg-yellow-400 py-3 border-b-4 border-black">
         <h1 className="text-center text-4xl sm:text-5xl font-bold text-black tracking-wide">
